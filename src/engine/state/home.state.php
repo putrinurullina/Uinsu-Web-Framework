@@ -9,7 +9,9 @@ class home{
     $this -> db = new State;
   }
   
-  
-  
+  public function getDataMahasiswa()
+  {
+  $this -> db -> getAllMahasiswa();
+  }
   
 }
