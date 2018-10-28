@@ -5,6 +5,7 @@ $siteName = 'Uinsu Web Framework';
 $author = 'Uinsu';
 $styleBase = $homeBase.'ladun/style/';
 $imgBase = $homeBase.'ladun/img/';
+$utf = '+07';
 //
 //
 //
