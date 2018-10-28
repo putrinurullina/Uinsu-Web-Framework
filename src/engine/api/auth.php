@@ -8,3 +8,5 @@ $newDataLogin = new DataLogin;
 
 $newDataLogin -> username = $username;
 $newDataLogin -> password = $password;
+
+$this -> send -> login($newDataLogin);
