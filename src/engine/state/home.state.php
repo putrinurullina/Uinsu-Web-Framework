@@ -14,4 +14,9 @@ class home{
   $this -> db -> getAllMahasiswa();
   }
   
+  public function deleteData($idMhs)
+  {
+    
+  }
+  
 }
