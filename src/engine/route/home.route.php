@@ -11,4 +11,8 @@ class Home extends Route{
         $this -> bind ('/home/kontak');
     }
     
+    public function about()
+    {
+    }
+    
 }
