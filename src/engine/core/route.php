@@ -6,9 +6,10 @@ class Route{
         require_once 'engine/bind/'.$blade.'.bind.php';    
     }
     
-    public function randomString($lenght)
+    public function randomString($length)
     {
-    
+     $data['string'] = str_shuffle(BASE_STRING_64);
+    return $length;
     }
     
     public function tesFungsi(){
