@@ -8,7 +8,8 @@ class Route{
     
     public function randomString($length)
     {
-    return $$length;
+     $data['string'] = str_shuffle(BASE_STRING_64);
+    return $length;
     }
     
     public function tesFungsi(){
