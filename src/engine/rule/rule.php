@@ -29,6 +29,7 @@ $dbName = 'dbs_haxors';
 $stringRandom = "QWERTYUIOPLKJHGFDSAZXCVBNMQWERTYUIOPLKJHGFDSAZXCVBNM";
 $numberRandom = "789456123";
 $allRandom = $stringRandom.$numberRandom;
+$newRandomString = "";
 //
 //
 //
