@@ -4,7 +4,12 @@ public function __construct(){
 $db = new db;
 }
 
-publi function getMahasiswa()
+public function getMahasiswa()
+{
+
+}
+
+public function getMahasiswaAll()
 {
 
 }
