@@ -12,6 +12,11 @@ class Route{
     return $length;
     }
     
+    public function checkEmail()
+    {
+        
+    }
+    
     public function tesFungsi(){
         echo "Tes fungsi";
     }
