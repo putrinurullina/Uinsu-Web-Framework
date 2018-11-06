@@ -12,7 +12,7 @@ class Route{
     return $length;
     }
     
-    public function checkEmail()
+    public function checkEmail($email)
     {
         
     }
