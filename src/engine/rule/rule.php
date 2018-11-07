@@ -1,6 +1,6 @@
 <?php
 //----- Settingan umum -------//
-$homeBase = 'http://localhost/uinsuWf/';
+$homeBaseUrl = 'http://localhost/uinsuWf/';
 $siteName = 'Uinsu Web Framework';
 $author = 'Uinsu';
 $styleBase = $homeBase.'ladun/style/';
