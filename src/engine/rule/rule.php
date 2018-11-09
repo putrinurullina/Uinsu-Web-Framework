@@ -22,6 +22,7 @@ $dbName = 'dbs_mahasiswa';
 
 //---- Database Wrapper Caption -----///
 $insert = 'INSERT INTO ';
+$select = 'SELECT ';
 
 //
 //
@@ -65,3 +66,4 @@ define('DB_PASSWORD',$dbPassword);
 define('DB_NAME',$dbName);
 
 define('DB_INSERT', $insert);
+define('DB_SELECT',$select);
