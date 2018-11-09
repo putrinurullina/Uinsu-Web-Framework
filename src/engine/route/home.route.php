@@ -9,6 +9,11 @@ class Home extends Route{
         $this -> bind('/home/default');
     }
     
+    public function testFungsi()
+    {
+        echo TANGGAL;
+    }
+
     public function dataMahasiswa()
     {
         $data['mhs'] = $this -> state('homeSt') -> mhsData();
@@ -16,13 +21,11 @@ class Home extends Route{
         $this -> bind('/home/dataBind',$data);
     }
 
-
     public function dataSubMhs()
     {
         $adit = "Adit";
         return $adit;
     }
-
 
 
     public function detailMhs($nim)
@@ -60,6 +63,7 @@ class Home extends Route{
     
     public function about()
     {
+        
     }
     
 }
