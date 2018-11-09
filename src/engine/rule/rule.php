@@ -1,6 +1,6 @@
 <?php
 //----- Settingan umum -------//
-$homeBaseUrl = 'http://localhost/uinsuWf/';
+$homeBase = 'http://localhost/uinsuWf/';
 $siteName = 'Uinsu Web Framework';
 $author = 'Uinsu';
 $styleBase = $homeBase.'ladun/style/';
@@ -17,8 +17,12 @@ $dbDriver = 'mysqli';
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
-$dbName = 'dbs_haxors';
+$dbName = 'dbs_mahasiswa';
 //
+
+//---- Database Wrapper Caption -----///
+$insert = 'INSERT INTO ';
+
 //
 //
 //
@@ -59,3 +63,5 @@ define('DB_SERVER',$dbServer);
 define('DB_USER',$dbUser);
 define('DB_PASSWORD',$dbPassword);
 define('DB_NAME',$dbName);
+
+define('DB_INSERT', $insert);
