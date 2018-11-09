@@ -5,10 +5,10 @@ class homeSt{
  private $tbl = 'mhs';
  private $st;
 
- public function __construct()
- {
-  $this -> st = new state;
- }
+  public function __construct()
+  {
+   $this -> st = new state;
+  }
  
 
   public function mhsData()
@@ -18,6 +18,13 @@ class homeSt{
 
   }
 
+  public function testState($nim)
+  {
+   $this -> st -> query('SELECT * FROM detail_mhs WHERE nim=:nim');
+    $this -> st -> querySet('nim',$nim);
+    return $this -> st -> querySingle(); 
+  }
+
   public function mhsDetail($nim)
   {
     $this -> st -> query('SELECT * FROM '. $this -> tbl . ' WHERE nim=:nim');
@@ -25,19 +32,18 @@ class homeSt{
     return $this -> st -> querySingle(); 
   }
 
-  public function tambahData()
-  {
-    $nama = "Adit";
-    $nim = "0701163112";
-    $email = "adit@gmail.com";
 
-    $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email);";
+
+  public function tambahData($data)
+  {
+      $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email);";
 
     $this -> st -> query($query);
-    $this -> st -> querySet('nim',$nim);
-    $this -> st -> querySet('nama',$nama);
-    $this -> st -> querySet('email',$email);
+    $this -> st -> querySet('nim',$data['nim']);
+    $this -> st -> querySet('nama',$data['nama']);
+    $this -> st -> querySet('email',$data['email']);
     $this -> st -> queryRun();    
+    
   }
   
   
