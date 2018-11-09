@@ -9,24 +9,17 @@ $utf = '+07';
 //
 //
 //
-//
-//
-//
 //---- Database -----//
 $dbDriver = 'mysqli';
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
 $dbName = 'dbs_mahasiswa';
-//
-
 //---- Database Wrapper Caption -----///
 $insert = 'INSERT INTO ';
 $select = 'SELECT ';
-
-//
-//
-//
+$detele = 'DELETE FROM ';
+$update = 'UPDATE ';
 //
 //
 //
@@ -38,17 +31,7 @@ $newRandomString = "";
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
+//-------- Define to Global -------//
 define('HOMEBASE',$homeBase);
 define('SITENAME',$siteName);
 define('AUTHOR',$author);
