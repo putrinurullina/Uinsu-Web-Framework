@@ -5,6 +5,12 @@ class Route{
     {
         require_once 'engine/bind/'.$blade.'.bind.php';    
     }
+
+    public function state($state)
+    {
+        require_once 'engine/state/'.$state.'.php';
+        return new $state;
+    }
     
     public function randomString($length)
     {
