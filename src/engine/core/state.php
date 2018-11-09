@@ -19,7 +19,7 @@ class state{
      ];
 
     try{
-      $this -> dbh = new PDO($dsn, 'root', '');
+      $this -> dbh = new PDO($dsn, $this -> user, $this -> pass);
     }catch(PDOException $e){
       die($e -> getMessage());
     }
@@ -39,7 +39,10 @@ class state{
             $type = PDO::PARAM_INT;
             break;
           case is_bool($value) :
-            $type = PDO::PATAM_BOOL;
+            $type = PDO::PARAM_BOOL;
+            break;
+            case is_null($value) :
+            $type = PDO::PARAM_NULL;
             break;
           default :
             $type = PDO::PARAM_STR;
@@ -64,8 +67,11 @@ class state{
     {
       $this -> queryRun();
       return $this -> stmt -> fetch(PDO::FETCH_ASSOC);
+
     }
-  
+
+
+
   }
 
 
