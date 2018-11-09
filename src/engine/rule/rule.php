@@ -6,11 +6,13 @@ $author = 'Uinsu';
 $styleBase = $homeBase.'ladun/style/';
 $imgBase = $homeBase.'ladun/img/';
 $utf = '+07';
+$tanggal = date("Y-m-d");
+
 //
 //
 //
 //---- Database -----//
-$dbDriver = 'mysqli';
+
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
@@ -37,16 +39,17 @@ define('SITENAME',$siteName);
 define('AUTHOR',$author);
 define('STYLEBASE',$styleBase);
 define('IMGBASE',$imgBase);
-
+//
+define('TANGGAL',$tanggal);
+//
 define('RANDOM_STRING',$stringRandom);
 define('NUMBER_RANDOM',$numberRandom);
 define('ALL_RANDOM',$allRandom);
 
-define('DB_DRIVER',$dbDriver);
 define('DB_SERVER',$dbServer);
 define('DB_USER',$dbUser);
 define('DB_PASSWORD',$dbPassword);
 define('DB_NAME',$dbName);
-
+//
 define('DB_INSERT', $insert);
 define('DB_SELECT',$select);
