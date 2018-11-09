@@ -1,8 +1,18 @@
 # Uinsu Web Framework
 Web Framework based on PHP - Universitas Islam Negeri Sumatera Utara
 
+Tim pengembang :
 
-- Framework ini menggunakan konsep MVC
+- Ketua Tim Pengembangan : Aditia Darma Nasution
+- Pembina : Muhammad Ikhsan
+- Pengembangan Ecosystem : Adam Falizufa Sagara
+- Tester : Abdillah
+- Dokumentasi : Diana Vita
+
+
+
+Framework ini menggunakan konsep Simple MVC
+
 - Workflow = Request URL -> Route -> State -> Bind -> Browser
 - Core -> Props 
 - Controller -> Route
