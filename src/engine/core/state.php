@@ -1,71 +1,72 @@
 <?php
 
 
-class Database{
+class state{
   
-  private $host = DB_SERVER;
-  private $user = DB_USERNAME;
-  private $password = DB_PASSWORD;
+  private $server = DB_SERVER;
+  private $user = DB_USER;
+  private $pass = DB_PASSWORD;
   private $dbName = DB_NAME;
-  
-  private $dbh;
-  private $qDb;
-  
-  public function __constuct()
+
+  public function __construct()
   {
-    $dsn = 'mysql:host='.$this->host.';dbname:='.$this->dbName;
-    $option = [
+
+     $dsn = 'mysql:host='.$this -> server.';dbname='.$this -> dbName;
+
+     $option = [
       PDO::ATTR_PERSISTENT => true,
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-    ];
-    
+     ];
+
     try{
-      $this -> dbh = new PDO($dsn, $this -> user , $this -> password);
-    }catch(PDOexception $e){
+      $this -> dbh = new PDO($dsn, 'root', '');
+    }catch(PDOException $e){
       die($e -> getMessage());
     }
-    
+
   }
-  
+
   public function query($query)
   {
-    $this -> qDb = $this -> dbh -> prepare($query);
+    $this -> stmt = $this -> dbh -> prepare($query);
   }
-  
-  public function bind($param, $value, $type = null)
-  {
-    if(is_null($type)){
-      switch(true){
-        case is_int($value):
-          $type = PDO::PARAM_INT;
-          break;
-        case is_bool($value):
-          $type = PDO::PARAM_BOOL;
-          break;
-        case is_null($value):
-          $type = PDO::PARAM_NULL;
-          break;
-        default:
-          $type = PDO::PARAM_STR;
+
+  public function querySet($param, $value, $type = null)
+    {
+      if(is_null($type)){
+        switch(true){
+          case is_int($value) :
+            $type = PDO::PARAM_INT;
+            break;
+          case is_bool($value) :
+            $type = PDO::PATAM_BOOL;
+            break;
+          default :
+            $type = PDO::PARAM_STR;
+          }
+        }
+        $this -> stmt -> bindValue($param, $value, $type);
       }
+
+
+    public function queryRun()
+    {
+      $this -> stmt -> execute();
     }
-    $this -> qDb -> bindValue($param, $value, $type);
-  }
+
+    public function queryAll()
+    {
+      $this -> queryRun();
+      return $this -> stmt -> fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function querySingle()
+    {
+      $this -> queryRun();
+      return $this -> stmt -> fetch(PDO::FETCH_ASSOC);
+    }
   
-  public function eDb()
-  {  
-    $this -> qDb -> execute();
   }
-  
-  public function qAll (){
-    $this -> eDb();
-    return $this -> qDb -> fetchAll(PDO::FETCH_ASSOC);
-  }
-  
-  public function qSingle()
-  {
-    $this -> eDb();
-    return $this -> qDb -> fetch(PDO::FETCH_ASSOC);
-  }
-  
-}
+
+
+
