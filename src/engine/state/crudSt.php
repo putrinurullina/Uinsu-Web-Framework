@@ -14,9 +14,11 @@ class crudSt{
   {
    $this -> st -> query(DB_SELECT."* FROM " . $this -> tbl);
    return $this -> st -> queryAll();
-
   }
-
-
-
+  
+  public function mhsDetail()
+  {
+    
+  }
+  
 }
