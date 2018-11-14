@@ -18,13 +18,21 @@ class Route{
     return $length;
     }
     
-    public function uploadFile($path)
-    {
-    }
-    
     public function checkEmail($email)
     {
         
+    }
+
+    public function inputPost($id)
+    {
+        $id = $_POST[$id];
+        return $id;
+    }
+
+    public function inputGet($id)
+    {
+        $id = $_POST[$id];
+        return $id;
     }
     
     public function tesFungsi(){
