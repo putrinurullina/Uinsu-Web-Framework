@@ -18,6 +18,10 @@ class Route{
     return $length;
     }
     
+    public function uploadFile()
+    {
+    }
+    
     public function checkEmail($email)
     {
         
