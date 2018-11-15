@@ -1,4 +1,4 @@
-<table border='1'>
+<table border='1' class='table'>
 <tr>
 <th>Nim</th><th>Mahasiswa</th><th>Email</th><th>Aksi</th>
 </tr>
