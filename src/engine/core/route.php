@@ -23,7 +23,7 @@ class Route{
         
     }
     
-    public function sendEmail()
+    public function sendEmail($sender, $receiver, $message)
     {
         
     }
