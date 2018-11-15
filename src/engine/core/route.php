@@ -22,6 +22,11 @@ class Route{
     {
         
     }
+    
+    public function sendEmail()
+    {
+        
+    }
 
     public function inputPost($id)
     {
