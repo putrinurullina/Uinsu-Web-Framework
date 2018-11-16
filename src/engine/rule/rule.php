@@ -20,7 +20,7 @@ $dbName = 'dbs_mahasiswa';
 //---- Database Wrapper Caption -----///
 $insert = 'INSERT INTO ';
 $select = 'SELECT ';
-$detele = 'DELETE FROM ';
+$delete = 'DELETE FROM ';
 $update = 'UPDATE ';
 //
 //
@@ -53,3 +53,5 @@ define('DB_NAME',$dbName);
 //
 define('DB_INSERT', $insert);
 define('DB_SELECT',$select);
+define('DB_UPDATE',$update);
+define('DB_DELETE',$delete);
