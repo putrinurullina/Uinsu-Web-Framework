@@ -23,6 +23,11 @@ class Route{
        
     }
     
+    public function uploadFoto($path,$newPath)
+    {
+        move_uploaded_files($path,$newPath);
+    }
+    
     public function sendEmail($sender, $receiver, $message)
     {
          $dataResponse = [
