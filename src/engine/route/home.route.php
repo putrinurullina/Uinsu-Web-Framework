@@ -2,16 +2,13 @@
 
 class Home extends Route{
     
-    public function index(){
-        //$data['mhs'] = $this -> state('homeSt') -> mhsData();
-        //$this -> bind('/home/dataBind',$data);
-        //$adit = $this -> state('homeSt') -> cetakNama();
+    public function index(){       
         $this -> bind('/home/default');
     }
     
     public function testFungsi()
     {
-        echo TANGGAL;
+        //bisa pakai nilai kembalian
     }
 
     public function dataMahasiswa()
