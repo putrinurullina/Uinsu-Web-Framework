@@ -23,6 +23,16 @@ class crudSt{
   	return $this -> st -> querySingle();
   }
 
+   public function tambahData($data)
+  {
+      $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email);";
+    $this -> st -> query($query);
+    $this -> st -> querySet('nim',$data['nim']);
+    $this -> st -> querySet('nama',$data['nama']);
+    $this -> st -> querySet('email',$data['email']);
+    $this -> st -> queryRun();    
+    
+  }
 
 
 }
