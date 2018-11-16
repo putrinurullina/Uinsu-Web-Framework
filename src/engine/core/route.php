@@ -28,9 +28,11 @@ class Route{
          $dataResponse = [
         'status' : 'berhasil',
         'pengirim' : $sender,
-        'penerima' : '$receiver,
+        'penerima' : $receiver,
         'pesan' : $message
-        ]
+        ];
+        
+        mail($dataResponse['pengirim'],$dataResponse['penerima'],$dataResponse['pesan']);
         
     }
 
