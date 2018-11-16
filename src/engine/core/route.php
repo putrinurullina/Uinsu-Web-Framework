@@ -20,11 +20,17 @@ class Route{
     
     public function checkEmail($email)
     {
-        
+       
     }
     
     public function sendEmail($sender, $receiver, $message)
     {
+         $dataResponse = [
+        'status' : 'berhasil',
+        'pengirim' : $sender,
+        'penerima' : '$receiver,
+        'pesan' : $message
+        ]
         
     }
 
