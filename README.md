@@ -1,4 +1,5 @@
 # Uinsu Web Framework
+Versi 3.02
 Web Framework based on PHP - Universitas Islam Negeri Sumatera Utara
 
 Tim pengembang :
