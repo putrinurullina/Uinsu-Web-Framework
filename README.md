@@ -9,8 +9,6 @@ Tim pengembang :
 - Tester : Abdillah
 - Dokumentasi : Diana Vita
 
-
-
 Framework ini menggunakan konsep Simple MVC
 
 - Workflow = Request URL -> Route -> State -> Bind -> Browser
@@ -18,3 +16,5 @@ Framework ini menggunakan konsep Simple MVC
 - Controller -> Route
 - Model -> State 
 - View -> Bind
+
+File utama framework ada di folder "src"
