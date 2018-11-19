@@ -17,6 +17,11 @@ class crudSt{
 
   }
 
+  function updateData()
+  {
+    
+  }
+
   public function mhsDetail($nim)
   {
   	$this -> st -> query(DB_SELECT." * FROM ". $this -> tbl." WHERE nim='$nim';");
