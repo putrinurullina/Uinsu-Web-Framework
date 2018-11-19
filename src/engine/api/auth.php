@@ -1,6 +1,6 @@
 <?php
-$username = addslashes($_POST['username']);
-$password = addslashes($_POST['password']);
+$username = addslashes($this -> getInput($username));
+$password = addslashes($this -> getInput($password));
 
 class dataLogin{}
 

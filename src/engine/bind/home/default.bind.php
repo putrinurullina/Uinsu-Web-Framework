@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title><?=SITENAME; ?></title>
+        <title><?=SITENAME; ?> - Home</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -68,7 +68,7 @@
                     <a href="http://haxorsprogrammingclub.id/uinsu-web-framework" target="new">Documentation</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>Git</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API</a>
-                    <a href="http://haxorsprogrammingclub.id/update">Update</a>
+                    <a href="<?=HOMEBASE; ?>crud">Example CRUD</a>
                     <a href="http://haxorsprogrammingclub.id">HaxorsProgramming</a>
                    
                 </div>
