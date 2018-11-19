@@ -25,11 +25,13 @@ class crudSt{
 
    public function tambahData($data)
   {
-      $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email);";
+      $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email,:jurusan,:alamat);";
     $this -> st -> query($query);
     $this -> st -> querySet('nim',$data['nim']);
     $this -> st -> querySet('nama',$data['nama']);
     $this -> st -> querySet('email',$data['email']);
+    $this -> st -> querySet('jurusan',$data['jurusan']);
+    $this -> st -> querySet('alamat',$data['alamat']);
     $this -> st -> queryRun();    
     
   }
