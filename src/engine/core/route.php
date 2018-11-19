@@ -18,28 +18,14 @@ class Route{
     return $length;
     }
     
-    public function checkEmail($email[],$data,$status)
-    {
-       
-    }
+    
     
     public function uploadFoto($path,$newPath)
     {
         move_uploaded_files($path,$newPath);
     }
     
-    public function sendEmail($sender, $receiver, $message)
-    {
-         $dataResponse = [
-        'status' : 'berhasil',
-        'pengirim' : $sender,
-        'penerima' : $receiver,
-        'pesan' : $message
-        ];
-        
-        mail($dataResponse['pengirim'],$dataResponse['penerima'],$dataResponse['pesan']);
-        
-    }
+    
 
     public function inputPost($id)
     {
