@@ -17,4 +17,5 @@ Framework ini menggunakan konsep Simple MVC
 - Model -> State 
 - View -> Bind
 
-File utama framework ada di folder "src"
+-> Versi yang bisa di jalankan ialah versi Master dari repo ini
+-> File utama framework ada di folder "src"
