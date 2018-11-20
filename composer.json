@@ -1,23 +1,8 @@
 {
-    "name": "UinsuWebFramework",
-    "type": "library",
-    "description": "Web Framework based on PHP",
-    "keywords": ["framework","uinsu","academic","education"],
-    "homepage": "https://github.com/haxorsprogramming/Uinsu-Web-Framework",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Haxors Programming Club",
-            "email": "git@haxorsprogrammingclub.id",
-            "homepage": "http://haxorsprogrammingclub.id",
-            "role": "Developer"
-        }
-    ],
+    "name": "haxors-programming-club/uinsu-web-framework",
+    "description": "Uinsu Web Framework - Fast, Simple MVC PHP Framework",
     "require": {
-        "php": ">=5.3.0"
-    },
-    "autoload": {
-        
-        }
+        "php": "^5.6.37 || ^7.0",
+        "another-vendor/package": "1.*"
     }
 }
