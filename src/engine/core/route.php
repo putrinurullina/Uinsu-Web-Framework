@@ -16,17 +16,13 @@ class Route{
     {
      $data['string'] = str_shuffle(BASE_STRING_64);
     return $length;
-    }
-    
-    
+    }        
     
     public function uploadFoto($path,$newPath)
     {
         move_uploaded_files($path,$newPath);
-    }
+    }  
     
-    
-
     public function inputPost($id)
     {
         $id = $_POST[$id];
@@ -39,7 +35,8 @@ class Route{
         return $id;
     }
     
-    public function tesFungsi(){
-        echo "Tes fungsi";
+    public function emailCheck($email)
+    {
+
     }
 }
