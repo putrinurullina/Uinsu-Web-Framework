@@ -44,7 +44,7 @@
         });
 
         $('#btnTambah').click(function(){
-           $('#divTampilMahasiswa').load('crud/tampilMahasiswaDetail');
+           $('#divTampilMahasiswa').load('crud/tambahData');
         });
 
        
