@@ -1,5 +1,5 @@
 {
-    "name": "haxors-programming-club/uinsu-web-framework",
+    "name": "uinsu-web-framework",
     "description": "Uinsu Web Framework - Fast, Simple MVC PHP Framework",
     "require": {
         "php": "^5.6.37 || ^7.0",
