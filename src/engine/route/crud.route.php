@@ -32,15 +32,31 @@ public function proTambahData()
 	$data['email'] = $this -> inputPost('email');
 	$data['alamat'] = $this -> inputPost('alamat');
 	$data['jurusan'] = $this -> inputPost('jurusan');
-	$data['mhsDetail'] = $this -> state('crudSt') -> tambahData($data);
+	$this -> state('crudSt') -> tambahData($data);
+}
+
+public function proUpdateData()
+{
+	$data['nim'] = $this -> inputPost('nim');
+	$data['nama'] = $this -> inputPost('nama');
+	$data['email'] = $this -> inputPost('email');
+	$data['alamat'] = $this -> inputPost('alamat');
+	$data['jurusan'] = $this -> inputPost('jurusan');
+	$this -> state('crudSt') -> updateData($data);
+
 }
 
 public function formEdit()
 {
 	$nim = $this -> inputPost('nim');
 	$data['mhsDetail'] = $this -> state('crudSt') -> mhsDetail($nim);
-	$this -> bind('/crud/formEdit', $data);
+	$this -> bind('crud/formEdit', $data);
+}
 
+public function proDeleteData()
+{
+	$nim = $this -> inputPost('nim');
+	$this -> state('crudSt') -> deleteData($nim);
 }
 
 
