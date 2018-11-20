@@ -15,10 +15,16 @@ $.post('crud/proTambahData',{'nim':nim,'nama':nama,'email':email,'alamat':alamat
    window.alert("Data sukses di tambahkan");
    $.post('crud/tampilMahasiswa',{},function(data){
           $('#divTampilMahasiswa').html(data);
-        });
+    });
 });
 }
 
+});
+
+$('#btnKembali').click(function(){
+$.post('crud/tampilMahasiswa',{},function(data){
+          $('#divTampilMahasiswa').html(data);
+        });
 });
 
 });
@@ -53,5 +59,6 @@ $.post('crud/proTambahData',{'nim':nim,'nama':nama,'email':email,'alamat':alamat
 <td style='padding-top:12px;'><button class='btn btn-primary' id='btnSimpan'>Simpan</button></td>
 </tr>
 </table>
-
+<br/>
+<a href='#!' id='btnKembali'>Kembali</a>
 </div>
