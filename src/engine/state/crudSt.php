@@ -18,8 +18,14 @@ class crudSt{
 
   function updateData($data)
   {
-    $this -> st -> query(DB_UPDATE." FROM ".$this -> tbl."SET :nim,:nama,:email,:jurusan,:alamat");
-    return $this -> st -> queryAll();
+    $query = DB_UPDATE." tbl_mahasiswa SET nim=:nim, nama=:nama, email=:email, jurusan=:jurusan, alamat=:alamat WHERE nim=:nim";
+    $this -> st -> query($query);
+    $this -> st -> querySet('nim',$data['nim']);
+    $this -> st -> querySet('nama',$data['nama']);
+    $this -> st -> querySet('email',$data['email']);
+    $this -> st -> querySet('jurusan',$data['jurusan']);
+    $this -> st -> querySet('alamat',$data['alamat']);
+    $this -> st -> queryRun();     
   }
 
   public function mhsDetail($nim)
@@ -30,7 +36,7 @@ class crudSt{
 
    public function tambahData($data)
   {
-      $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email,:jurusan,:alamat);";
+    $query = DB_INSERT.$this -> tbl ." VALUES ('',:nim,:nama,:email,:jurusan,:alamat);";
     $this -> st -> query($query);
     $this -> st -> querySet('nim',$data['nim']);
     $this -> st -> querySet('nama',$data['nama']);
@@ -39,6 +45,14 @@ class crudSt{
     $this -> st -> querySet('alamat',$data['alamat']);
     $this -> st -> queryRun();    
     
+  }
+
+  public function deleteData($nim)
+  {
+    $query = "DELETE FROM tbl_mahasiswa WHERE nim=:nim";
+    $this -> st -> query($query);
+    $this -> st -> querySet('nim',$nim);
+    $this -> st -> queryRun();  
   }
 
 
