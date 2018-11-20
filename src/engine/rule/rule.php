@@ -17,6 +17,8 @@ $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
 $dbName = 'dbs_mahasiswa';
+$dbDriver = 'mysql';
+
 //---- Database Wrapper Caption -----///
 $insert = 'INSERT INTO ';
 $select = 'SELECT ';
@@ -46,6 +48,7 @@ define('RANDOM_STRING',$stringRandom);
 define('NUMBER_RANDOM',$numberRandom);
 define('ALL_RANDOM',$allRandom);
 
+define('DB_DRIVER',$dbDriver);
 define('DB_SERVER',$dbServer);
 define('DB_USER',$dbUser);
 define('DB_PASSWORD',$dbPassword);
