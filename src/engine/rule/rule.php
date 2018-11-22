@@ -1,10 +1,16 @@
 <?php
+//
+//Uinsu Web Framework - Config File
+//Catatan : JANGAN UBAH NAMA VARIABEL & DEFINE
+//
+
+
 //----- Settingan umum -------//
-$homeBase = 'http://localhost/uinsuWf/';
-$siteName = 'Uinsu Web Framework';
-$author = 'Uinsu';
+$homeBase = 'http://localhost/aditPos/';
+$siteName = 'Simple POS (Point of Sales)';
+$author = 'Aditia Darma Nasution';
 $styleBase = $homeBase.'ladun/style/';
-$imgBase = $homeBase.'ladun/img/';
+$imgBase = $homeBase.'ladun/site/img';
 $utf = '+07';
 $tanggal = date("Y-m-d");
 
@@ -16,7 +22,7 @@ $tanggal = date("Y-m-d");
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
-$dbName = 'dbs_mahasiswa';
+$dbName = 'dbs_adit_pos';
 $dbDriver = 'mysql';
 
 //---- Database Wrapper Caption -----///
@@ -32,6 +38,35 @@ $stringRandom = "QWERTYUIOPLKJHGFDSAZXCVBNMQWERTYUIOPLKJHGFDSAZXCVBNM";
 $numberRandom = "789456123";
 $allRandom = $stringRandom.$numberRandom;
 $newRandomString = "";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
