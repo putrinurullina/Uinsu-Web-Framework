@@ -7,11 +7,11 @@
 
 //----- Settingan umum -------//
 //-> Home base (alamat website/server)
-$homeBase = 'http://localhost/aditPos/';
+$homeBase = 'http://localhost/uinsuWf/';
 //-> Site name (Nama website)
-$siteName = 'Simple POS (Point of Sales)';
+$siteName = 'Uinsu Web Framework';
 //Nama pemilik/pengembang
-$author = 'Aditia Darma Nasution';
+$author = 'Haxors Programming Club';
 //Path style(css/js/sass/dll)
 $styleBase = $homeBase.'ladun/style/';
 //Path img
