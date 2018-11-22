@@ -6,18 +6,24 @@
 
 
 //----- Settingan umum -------//
+//-> Home base (alamat website/server)
 $homeBase = 'http://localhost/aditPos/';
+//-> Site name (Nama website)
 $siteName = 'Simple POS (Point of Sales)';
+//Nama pemilik/pengembang
 $author = 'Aditia Darma Nasution';
+//Path style(css/js/sass/dll)
 $styleBase = $homeBase.'ladun/style/';
+//Path img
 $imgBase = $homeBase.'ladun/site/img';
+//Kode UTC
 $utf = '+07';
 $tanggal = date("Y-m-d");
 
 //
 //
 //
-//---- Database -----//
+//---- Database Config-----//
 
 $dbServer = 'localhost';
 $dbUser = 'root';
