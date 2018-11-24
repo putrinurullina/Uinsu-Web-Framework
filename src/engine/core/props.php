@@ -2,7 +2,7 @@
 
 class Props{
 
-    protected $route = 'Home';
+    protected $route = MAINROUTE;
     protected $method = 'index';
     protected $params = [];
 
