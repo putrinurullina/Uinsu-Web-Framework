@@ -7,18 +7,20 @@
 
 //----- Settingan umum -------//
 //-> Home base (alamat website/server)
-$homeBase = 'http://localhost/uinsuWf/';
+$homeBase = 'http://localhost/dokteranak/';
 //-> Site name (Nama website)
-$siteName = 'Uinsu Web Framework';
+$siteName = 'Bedah Anak';
 //Nama pemilik/pengembang
-$author = 'Haxors Programming Club';
+$author = 'Dr Bla Bla';
 //Path style(css/js/sass/dll)
-$styleBase = $homeBase.'ladun/style/';
+$styleBase = $homeBase.'ladun/';
 //Path img
 $imgBase = $homeBase.'ladun/site/img';
 //Kode UTC
 $utf = '+07';
 $tanggal = date("Y-m-d");
+//main route,not index
+$mainRoute = 'home';
 
 //
 //
@@ -28,7 +30,7 @@ $tanggal = date("Y-m-d");
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
-$dbName = 'dbs_adit_pos';
+$dbName = 'db_mhs_tes';
 $dbDriver = 'mysql';
 
 //---- Database Wrapper Caption -----///
@@ -80,6 +82,7 @@ $newRandomString = "";
 define('HOMEBASE',$homeBase);
 define('SITENAME',$siteName);
 define('AUTHOR',$author);
+define('MAINROUTE',$mainRoute);
 define('STYLEBASE',$styleBase);
 define('IMGBASE',$imgBase);
 //
