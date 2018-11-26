@@ -7,11 +7,11 @@
 
 //----- Settingan umum -------//
 //-> Home base (alamat website/server)
-$homeBase = 'http://localhost/dokteranak/';
+$homeBase = '';
 //-> Site name (Nama website)
-$siteName = 'Bedah Anak';
+$siteName = '';
 //Nama pemilik/pengembang
-$author = 'Dr Bla Bla';
+$author = '';
 //Path style(css/js/sass/dll)
 $styleBase = $homeBase.'ladun/';
 //Path img
