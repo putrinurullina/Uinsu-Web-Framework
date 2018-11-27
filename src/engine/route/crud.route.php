@@ -58,6 +58,11 @@ public function proDeleteData()
 	$nim = $this -> inputPost('nim');
 	$this -> state('crudSt') -> deleteData($nim);
 }
+	
+	public function tesCariBaris()
+	{
+		
+	}
 
 
 }
