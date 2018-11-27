@@ -54,6 +54,10 @@ class crudSt{
     $this -> st -> querySet('nim',$nim);
     $this -> st -> queryRun();  
   }
+  
+  public function dataMhsAll()
+  {
+  }
 
 
 }
