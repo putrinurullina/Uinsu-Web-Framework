@@ -67,7 +67,7 @@
                 <div class="links">
                     <a href="http://haxorsprogrammingclub.id/uinsu-web-framework" target="new">Documentation</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>Git</a>
-                    <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API</a>
+                    <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API Development</a>
                     <a href="<?=HOMEBASE; ?>crud">Example CRUD</a>
                     <a href="http://haxorsprogrammingclub.id">HaxorsProgramming</a>
                    
