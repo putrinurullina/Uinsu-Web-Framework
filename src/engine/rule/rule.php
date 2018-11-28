@@ -22,7 +22,7 @@ $tanggal = date("Y-m-d");
 //main route,not index
 $mainRoute = 'home';
 //
-$releaseDate = date();
+
 //
 //
 //
