@@ -1,4 +1,5 @@
 <script type="text/javascript">
+	var except = "Data";
 	$(document).ready(function(){
 		$('#btnKembali').click(function(){
 		$.post('crud/tampilMahasiswa',{},function(data){
