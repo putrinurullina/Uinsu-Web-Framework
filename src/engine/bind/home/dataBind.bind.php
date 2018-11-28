@@ -20,3 +20,4 @@ Kelas : <?=$sMhs['kelas']; ?>
 
 <?php endforeach;?>
 </table>
+Contoh tampilan
