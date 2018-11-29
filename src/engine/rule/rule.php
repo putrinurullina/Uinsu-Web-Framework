@@ -88,6 +88,7 @@ define('STYLEBASE',$styleBase);
 define('IMGBASE',$imgBase);
 //
 define('TANGGAL',$tanggal);
+define('WAKTU',"Waktu");
 //
 define('RANDOM_STRING',$stringRandom);
 define('NUMBER_RANDOM',$numberRandom);
