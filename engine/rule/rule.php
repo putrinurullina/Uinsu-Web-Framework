@@ -4,7 +4,11 @@
 * File ini memuat konfigurasi dasar & database 
 */
 
-//-> Home base (alamat website/server)
+
+/**
+* Home base (alamat website/server) 
+* cth : localhost/uinsuWf atau http://haxorsprogramming.id
+*/
 $homeBase = '';
 
 //-> Site name (Nama website)
