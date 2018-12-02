@@ -15,11 +15,14 @@
 
 
 /**
-* PPPP     RRRR             OOO
-* PP  PP   RR  RRR        OO  
-* PPPP     RRRR          OO
-* PP       RR  RR         OO
-* PP       RR    RR         OOO
+* hh     hh  aaaaaaaaaa    xx      xx      oooooooooo       rrrrr            sssssssssss
+* hh     hh  aa      aa     xx    xx      oo        oo      rr   rrr        ss
+* hh     hh  aa      aa      xx  xx       oo        oo      rr    rrr       ss
+* hhhhhhhhh  aaaaaaaaaa       xxxx        oo        oo      rr   rrr        ss
+* hhhhhhhhh  aaaaaaaaaa       xxxx        oo        oo      rrrrr           sssssssssss
+* hh     hh  aa      aa      xx  xx       oo        oo      rr  rr                   ss
+* hh     hh  aa      aa     xx    xx      oo        oo      rr   rr                  ss 
+* hh     hh  aa      aa    xx      xx      oooooooooo       rr    rrr      ssssssssssss
 */
 class Props{
 
