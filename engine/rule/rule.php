@@ -1,14 +1,8 @@
 <?php
-//------------------------------------------------//
-//Uinsu Web Framework - Rule & Configuration File
-//Catatan : JANGAN UBAH NAMA VARIABEL & DEFINE
-//Bisa definisikan variabel global disini
-//-----------------------------------------------//
-//
-//
-//
-//
-//----- Settingan umum -------//
+/**
+@package : Uinsu Web Framework
+
+*/
 //-> Home base (alamat website/server)
 $homeBase = '';
 //-> Site name (Nama website)
