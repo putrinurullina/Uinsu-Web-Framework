@@ -19,7 +19,7 @@ Framework ini menggunakan konsep Simple MVC
 - View -> Bind
 
 Instalasi via composer 
->> composer create-project haxorsprogramming/uinsu-web-framework
+>> <i>composer create-project haxorsprogramming/uinsu-web-framework</i>
 
 -> Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
 
