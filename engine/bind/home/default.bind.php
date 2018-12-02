@@ -62,10 +62,10 @@
                     Uinsu Web Framework
                 </div>
                 <div>Ayo mulai dari jelajahi di -> "/engine/route/home.route.php"<br/>
-                  Setting konfigurasi web anda di -> "/engine/rule/rule.php"
+                  Setting konfigurasi web anda di -> "/engine/rule/base.php"
                 </div><br/>
                 <div class="links">
-                    <a href="http://haxorsprogrammingclub.id/uinsu-web-framework" target="new">Documentation</a>
+                    <a href="<?=HOMEBASE; ?>doc/index.html" target="new">Documentation</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>Git</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API Development</a>
                     <a href="<?=HOMEBASE; ?>crud">Example CRUD</a>
