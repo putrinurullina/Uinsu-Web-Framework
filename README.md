@@ -13,10 +13,10 @@ Tim pengembang :
 Framework ini menggunakan konsep Simple MVC
 
 - Workflow = Request URL -> Route -> State -> Bind -> Browser
-- Core -> Props 
-- Controller -> Route
-- Model -> State 
-- View -> Bind
+
+- Controller => Route
+- Model => State 
+- View => Bind
 
 Instalasi offline 
 - Download source code, letakkan di folder webserver
@@ -25,6 +25,6 @@ Instalasi offline
 Instalasi via composer 
 >> <i>composer create-project haxorsprogramming/uinsu-web-framework</i>
 
--> Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
+- Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
 
 
