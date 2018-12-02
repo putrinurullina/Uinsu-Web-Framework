@@ -2,6 +2,7 @@
 /**
 * UINSU Web Framework Config & Rule File
 * File ini memuat konfigurasi dasar website
+*
 */
 
 
@@ -31,6 +32,7 @@ $imgBase = $homeBase.'ladun/site/img';
 $utf = '+07';
 
 $tanggal = date("Y-m-d");
+$waktu = date("m:s:H");
 
 //main route,not index
 $mainRoute = 'home';
