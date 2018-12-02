@@ -4,7 +4,6 @@
 *
 * @package	Uinsu Web Framework
 * @author	Haxors Programming Club
-* @license	https://opensource.org/licenses/MIT	MIT License
 * @link	http://haxorsprogrammingclub.id
 * @since	Version 3.5
 */
