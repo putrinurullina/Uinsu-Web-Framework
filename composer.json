@@ -1,6 +1,7 @@
 {
     "name": "uinsu-web-framework/3.5",
     "description": "Small, fast, secure web framework",
+    "type": "project",
     "license": "MIT",
     "require": {
         "php": "^5.6.37 || ^7.0"
