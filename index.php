@@ -13,8 +13,16 @@
 * @since	Version 3.5
 */
 
-
 /**
+* hh     hh  aaaaaaaaaa    xx      xx      oooooooooo       rrrrr            sssssssssss
+* hh     hh  aa      aa     xx    xx      oo        oo      rr   rrr        ss
+* hh     hh  aa      aa      xx  xx       oo        oo      rr    rrr       ss
+* hhhhhhhhh  aaaaaaaaaa       xxxx        oo        oo      rr   rrr        ss
+* hhhhhhhhh  aaaaaaaaaa       xxxx        oo        oo      rrrrr           sssssssssss
+* hh     hh  aa      aa      xx  xx       oo        oo      rr  rr                   ss
+* hh     hh  aa      aa     xx    xx      oo        oo      rr   rr                  ss 
+* hh     hh  aa      aa    xx      xx      oooooooooo       rr    rrr      ssssssssssss
+
 *
 *
 */
