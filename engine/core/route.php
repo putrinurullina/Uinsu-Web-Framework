@@ -1,6 +1,12 @@
 <?php
+/**
+* route core file
+*
+*
+*/
 
 class Route{
+    
     public function bind($blade, $data = [])
     {
         require_once 'engine/bind/'.$blade.'.bind.php';    
@@ -14,14 +20,23 @@ class Route{
     
     public function randomString($length)
     {
-     $data['string'] = str_shuffle(BASE_STRING_64);
-    return $length;
+   
     }        
     
-    public function uploadFoto($path,$newPath)
+    public function upload()
     {
-        move_uploaded_files($path,$newPath);
-    }  
+        
+    }
+    
+    public function sendEmail()
+    {
+    
+    }
+    
+    public function getApi()
+    {
+        
+    }
     
     public function inputPost($id)
     {
