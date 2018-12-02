@@ -2,7 +2,7 @@
 //
 //Uinsu Web Framework - Config File
 //Catatan : JANGAN UBAH NAMA VARIABEL & DEFINE
-
+//Bisa definisikan variabel global disini
 
 
 //----- Settingan umum -------//
