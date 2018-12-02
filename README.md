@@ -18,6 +18,9 @@ Framework ini menggunakan konsep Simple MVC
 - Model -> State 
 - View -> Bind
 
--> Versi yang bisa di jalankan ialah versi "3.05" dari repo ini<br/>
+Instalasi via composer 
+>> composer create-project haxorsprogramming/uinsu-web-framework
+
+-> Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
 
 
