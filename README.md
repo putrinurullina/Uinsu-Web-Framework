@@ -18,6 +18,10 @@ Framework ini menggunakan konsep Simple MVC
 - Model -> State 
 - View -> Bind
 
+Instalasi offline 
+- Download source code, letakkan di folder webserver
+- Setting konfigurasi awal di 'engine/rule.php'
+
 Instalasi via composer 
 >> <i>composer create-project haxorsprogramming/uinsu-web-framework</i>
 
