@@ -1,7 +1,8 @@
 <?php
 /**
-* @package : Uinsu Web Framework
-
+* @developer => HaxorsProgrammingClub
+* @coders 
+* @version => 3.0
 */
 //-> Home base (alamat website/server)
 $homeBase = '';
