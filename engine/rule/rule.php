@@ -1,6 +1,6 @@
 <?php
 /**
-@package : Uinsu Web Framework
+* @package : Uinsu Web Framework
 
 */
 //-> Home base (alamat website/server)
