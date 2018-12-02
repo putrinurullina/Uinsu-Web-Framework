@@ -4,8 +4,8 @@
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
-$dbName = 'db_mhs_tes';
-$dbDriver = 'mysql';
+$dbName = 'dbs_mahasiswa';
+$dbDriver = 'mysqli';
 
 //---- Database Wrapper Caption -----///
 $insert = 'INSERT INTO ';
