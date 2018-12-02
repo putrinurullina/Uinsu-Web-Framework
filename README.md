@@ -22,7 +22,7 @@ Instalasi offline
 - Setting konfigurasi awal di 'engine/rule.php'
 
 Instalasi via composer 
->> <i>composer create-project haxorsprogramming/uinsu-web-framework</i>
+>> <i>composer create-project haxorsprogramming/uinsu-web-framework namaProject</i>
 
 - Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
 
