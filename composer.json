@@ -10,5 +10,11 @@
         "optimize-autoloader": true,
         "preferred-install": "dist"       
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/haxorsprogramming/Uinsu-Web-Framework"
+        }
+    ],
      "minimum-stability": "dev"
 }
