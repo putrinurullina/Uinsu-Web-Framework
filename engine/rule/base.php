@@ -9,10 +9,10 @@
 * Home base (alamat website/server) 
 * cth : localhost/uinsuWf atau http://haxorsprogramming.id
 */
-$homeBase = '';
+$homeBase = 'http://localhost/uinsuWf/';
 
 //-> Site name (Nama website)
-$siteName = '';
+$siteName = 'Uinsu Web Framework';
 
 //Nama pemilik/pengembang
 $author = '';
@@ -42,39 +42,15 @@ $stringRandom = "QWERTYUIOPLKJHGFDSAZXCVBNMQWERTYUIOPLKJHGFDSAZXCVBNM";
 $numberRandom = "789456123";
 $allRandom = $stringRandom.$numberRandom;
 $newRandomString = "";
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//-------- Define to Global -------//
+
+
+
+/**
+*------------------- Definisikan semua variabel ke global ------------------------
+*semua variabel dapat dipanggil di route, bind, maupun state
+*
+*/
+
 define('HOMEBASE',$homeBase);
 define('SITENAME',$siteName);
 define('AUTHOR',$author);
