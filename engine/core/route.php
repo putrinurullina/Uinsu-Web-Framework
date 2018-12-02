@@ -43,4 +43,5 @@ class Route{
           echo("$email is not a valid email address");
         }
     }
+    
 }
