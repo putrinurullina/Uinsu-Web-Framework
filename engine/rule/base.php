@@ -1,7 +1,7 @@
 <?php
 /**
 * UINSU Web Framework Config & Rule File
-* File ini memuat konfigurasi dasar & database 
+* File ini memuat konfigurasi dasar website
 */
 
 
@@ -11,10 +11,14 @@
 */
 $homeBase = 'http://localhost/uinsuWf/';
 
-//-> Site name (Nama website)
+/**
+* Site name (nama situs web)
+*/
 $siteName = 'Uinsu Web Framework';
 
-//Nama pemilik/pengembang
+/**
+* Author (Pengembang / pemilik website)
+*/
 $author = '';
 
 //Path style(css/js/sass/dll)
