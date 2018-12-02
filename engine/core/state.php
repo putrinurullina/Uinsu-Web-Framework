@@ -1,18 +1,15 @@
 <?php
 
-
-class state{
+class state{  
   
   private $server = DB_SERVER;
   private $user = DB_USER;
   private $pass = DB_PASSWORD;
   private $dbName = DB_NAME;
-
+  
   public function __construct()
   {
-
      $dsn = 'mysql:host='.$this -> server.';dbname='.$this -> dbName;
-
      $option = [
       PDO::ATTR_PERSISTENT => true,
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
@@ -51,7 +48,6 @@ class state{
         $this -> stmt -> bindValue($param, $value, $type);
       }
 
-
     public function queryRun()
     {
       $this -> stmt -> execute();
@@ -67,10 +63,7 @@ class state{
     {
       $this -> queryRun();
       return $this -> stmt -> fetch(PDO::FETCH_ASSOC);
-
     }
-
-
 
   }
 
