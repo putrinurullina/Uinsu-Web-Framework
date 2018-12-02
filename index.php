@@ -25,15 +25,34 @@ function __construct(){
 
 
 class exportAll{
-
+	/**
+	* Page 
+	*/
 	private $page = "";
+	/**
+	* Props 
+	*/
 	private $props = "";
+	/**
+	* Route 
+	*/
 	private $route = "";
+	/**
+	* Bind 
+	*/
 	private $bind = "";
+	/**
+	* State 
+	*/
 	private $state = "";
 
 	function exPage()
 	{
+		$this -> ins ('setPage') -> data($page);
+		$this -> ins ('setProps') -> data($props);
+		$this -> ins ('setRoute') -> data($route);
+		$this -> ins ('setBind') -> data($bind);
+		$this -> ins ('setState') -> data($state);
 
 	}
 
