@@ -13,7 +13,6 @@ Tim pengembang :
 Framework ini menggunakan konsep Simple MVC
 
 - Workflow = Request URL -> Route -> State -> Bind -> Browser
-
 - Controller => Route
 - Model => State 
 - View => Bind
