@@ -1,4 +1,8 @@
 <?php
+/**
+* core file state.php
+* all config under file /engine/rule/database.php
+*/
 
 class state{  
   
