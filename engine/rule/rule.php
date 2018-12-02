@@ -1,31 +1,38 @@
 <?php
 /**
-* @developer => HaxorsProgrammingClub
-* @coders 
-* @version => 3.0
+* UINSU Web Framework Config & Rule File
+* File ini memuat konfigurasi dasar & database 
 */
+
 //-> Home base (alamat website/server)
 $homeBase = '';
+
 //-> Site name (Nama website)
 $siteName = '';
+
 //Nama pemilik/pengembang
 $author = '';
+
 //Path style(css/js/sass/dll)
 $styleBase = $homeBase.'ladun/';
+
 //Path img
 $imgBase = $homeBase.'ladun/site/img';
+
 //Kode UTC
 $utf = '+07';
+
 $tanggal = date("Y-m-d");
+
 //main route,not index
 $mainRoute = 'home';
-//
+/**
+*
+*
+*
+*/
 
-//
-//
-//
 //---- Database Config-----//
-
 $dbServer = 'localhost';
 $dbUser = 'root';
 $dbPassword = '';
