@@ -68,7 +68,7 @@
                     <a href="<?=HOMEBASE; ?>doc/index.html" target="new">Documentation</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>Git</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API Development</a>
-                    <a href="<?=HOMEBASE; ?>crud">Example CRUD</a>
+                    <a href="<?=HOMEBASE; ?>crud" id='btnCrud' onclick='pesanToCrud()'>Example CRUD</a>
                     
                    
                 </div>
@@ -79,5 +79,13 @@
                 <img src="http://haxorsprogrammingclub.id/ladun/img/default/logo_club.png" style="width:200px;"></a>
             </div>
         </div>
+        <script type="text/javascript">
+        
+function pesanToCrud(){
+    window.alert("Harap konfigurasi file base.php di 'engine/rule/base.php' dan 'engine/rule/database.php' untuk menjalankan example CRUD!!");
+}
+
+       
+        </script>
     </body>
 </html>
