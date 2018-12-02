@@ -1,7 +1,7 @@
 {
     "name": "haxorsprogramming/uinsu-web-framework",
     "description": "Small, fast, secure web framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^5.6.37 || ^7.0"
