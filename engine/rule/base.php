@@ -10,7 +10,7 @@
 * Home base (alamat website/server) 
 * cth : localhost/uinsuWf atau http://haxorsprogramming.id
 */
-$homeBase = 'http://localhost/uinsuWf/';
+$homeBase = '';
 
 /**
 * Site name (nama situs web)
