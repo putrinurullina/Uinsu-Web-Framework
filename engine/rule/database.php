@@ -1,6 +1,8 @@
 <?php
 /**
 * Database configuration
+* Uinsu Web Framework
+*
 */
 
 $dbServer = 'localhost';
