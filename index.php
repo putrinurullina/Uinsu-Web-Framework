@@ -9,8 +9,8 @@
 * 
 * @package	Uinsu Web Framework
 * @author	Haxors Programming Club
-* @link	http://haxorsprogrammingclub.id
-* @since	Version 3.5
+* @link		http://haxorsprogrammingclub.id
+* @since	Version 3.5 (stable)
 */
 
 /**
@@ -26,6 +26,7 @@
 *
 *
 */
+
 function __construct(){
 	$getSelfData = [];
 }
