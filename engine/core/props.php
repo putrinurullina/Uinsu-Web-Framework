@@ -9,10 +9,9 @@
 * 
 * @package	Uinsu Web Framework
 * @author	Haxors Programming Club
-* @link	http://haxorsprogrammingclub.id
-* @since	Version 3.5
+* @link		http://haxorsprogrammingclub.id
+* @since	Version 3.5 (stable)
 */
-
 
 /**
 * hh     hh  aaaaaaaaaa    xx      xx      oooooooooo       rrrrr            sssssssssss
@@ -23,6 +22,9 @@
 * hh     hh  aa      aa      xx  xx       oo        oo      rr  rr                   ss
 * hh     hh  aa      aa     xx    xx      oo        oo      rr   rr                  ss 
 * hh     hh  aa      aa    xx      xx      oooooooooo       rr    rrr      ssssssssssss
+
+*
+*
 */
 class Props{
 
