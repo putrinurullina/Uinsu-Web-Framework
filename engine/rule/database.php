@@ -20,6 +20,9 @@ $select = 'SELECT ';
 $delete = 'DELETE FROM ';
 $update = 'UPDATE ';
 
+/**
+* Query builder 
+*/
 
 define('DB_DRIVER',$dbDriver);
 define('DB_SERVER',$dbServer);
