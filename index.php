@@ -15,7 +15,7 @@
 * The schema for this framework
 * props -> core 
 * route -> controller
-* 
+* bind -> view
 */
 
 /**
