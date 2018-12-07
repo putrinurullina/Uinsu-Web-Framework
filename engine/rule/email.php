@@ -12,3 +12,5 @@ $mailData = new EmailFuntion();
 $mailData -> sender = $this -> inputPost('sender');
 
 $mailData -> message = $this -> inputPost('message');
+
+echo json_encode($mailData);
