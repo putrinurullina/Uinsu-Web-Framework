@@ -6,7 +6,6 @@ class crud extends Route{
 public function index()
 {
 	$this -> bind('/crud/default');
-
 }
 
 public function tampilMahasiswa()
@@ -60,6 +59,11 @@ public function proDeleteData()
 }
 	
 	public function tesCariBaris()
+	{
+		
+	}
+	
+	public function hitungBaris($namaTabel)
 	{
 		
 	}
