@@ -49,7 +49,7 @@ class Route{
     
     public function sendEmail()
     {
-    
+    $data['mailId'] = $this -> inputPost('mailId');
     }
     
     public function getApi()
