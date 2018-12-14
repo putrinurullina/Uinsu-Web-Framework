@@ -47,6 +47,16 @@ class Home extends Route{
         $this -> bind ('/home/kontak');
     }
     
+    public function editLastData()
+    {
+        $data['nim'] = $this -> inputPost('txtNim');
+        $data['nama'] = $this -> inputPost('txtNama');
+        $data['email'] = $this -> inputPost('txtEmail');
+        $this -> state('homeSt') -> tambahData($data);
+        $this -> toSite('home/formTambah');
+    }
+    
+    
  
     
 }
