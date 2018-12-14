@@ -37,9 +37,14 @@ class Route{
    
     }        
     
-    public function upload()
+    public function upload($path)
     {
+        $data['path'] = $data -> path($path);
+        if(move_uploaded_file()){
         
+        }else{
+        
+        }
     }
     
     public function sendEmail()

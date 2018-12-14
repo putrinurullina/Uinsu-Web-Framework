@@ -9,8 +9,13 @@
 * 
 * @package	Uinsu Web Framework
 * @author	Haxors Programming Club
-* @link	http://haxorsprogrammingclub.id
-* @since	Version 3.5
+* @link		http://haxorsprogrammingclub.id
+* @since	Version 3.5 (stable)
+*
+* The schema for this framework
+* props -> core 
+* route -> controller
+* bind -> view
 */
 
 /**
@@ -26,6 +31,7 @@
 *
 *
 */
+
 function __construct(){
 	$getSelfData = [];
 }
