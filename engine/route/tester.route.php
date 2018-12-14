@@ -4,3 +4,4 @@
 * Rule file
 *
 */
+$data['newRule'] = $idRule;
