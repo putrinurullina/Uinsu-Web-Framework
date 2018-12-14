@@ -17,6 +17,6 @@ $mailData -> message = $this -> inputPost('message');
 
 $mailData -> status = ERR_MAIL_SENDER($mailData);
 
-
+$mail -> allData = $this -> emailData();
 echo json_encode($mailData);
 
