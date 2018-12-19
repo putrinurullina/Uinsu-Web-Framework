@@ -3,5 +3,5 @@
 
 function index()
 {
-
+mail_send();
 }
